@@ -121,7 +121,7 @@ FROM retail_sales
 WHERE 
     category = 'Clothing'
     AND 
-     AND DATE_FORMAT(sale_date, '%Y-%m') = '2022-11'
+     DATE_FORMAT(sale_date, '%Y-%m') = '2022-11'
     AND
     quantity >= 4
 
